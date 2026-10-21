@@ -6,6 +6,13 @@ Monokai Syntax is a Monokai Pro inspired theme for Obsidian. It is designed for 
 
 ![Monokai Syntax](./MonokaiSyntax.png)
 
+
+## To build locally
+```sh
+OBSIDIAN_VAULT="/Users/valho/obsidian/ObsidianBaseVault" npm run build:vault
+npm run build && node scripts/sync-vault-theme.js "/Users/valho/obsidian/ObsidianBaseVault"
+```
+
 ## Version
 
 Current version: `1.1.9`
@@ -36,3 +43,4 @@ Minimum Obsidian version: `1.5.8`
 ## License
 
 MIT. See [LICENSE.md](./LICENSE.md).
+
